@@ -1,0 +1,42 @@
+*{
+    row-gap: 30px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ddd;
+    color: black;
+}
+main{
+    width: 960px;
+    margin:0px auto;
+}
+
+.subBanners{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.featuredSection{
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-content: center;
+}
+
+.scrollable {
+    height: 350px;
+    width: 450px;
+    overflow: auto;
+    background-color:white;
+    color: black;
+    font-family: sans-serif;
+    padding: 10px;
+}
+footer
+{
+    height: 70px;
+    background-color: #ddd;
+}
